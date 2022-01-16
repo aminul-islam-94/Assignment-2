@@ -1,0 +1,107 @@
+#starter{
+    margin-left: 200px;
+}
+body{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.common-flex-1, .common-flex-2{
+    display: flex;
+    margin-left: 200px;
+}
+
+.half-width{
+height: 270px;
+width: 50%;
+left: 120px;
+top: 285px;
+border-radius: 41px;
+}
+#main-camera{
+    width: 50%;
+}
+.anchor-button{
+background-color:#E02C6D;
+height: 24px;
+width: 150px;
+left: 150px;
+top: 511px;
+border-radius: 41px;
+padding: 10px;
+justify-content: center;
+color: white;
+font-size: 15px;
+margin-left: 30px;
+}
+.tools{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+height: 1108px;
+width: 1047px;
+left: 196px;
+top: 935px;
+margin-left: 200px;
+}
+.rating{
+    display: flex;
+}
+#see-more{
+    color:#E02C6D;
+    margin-left: 1000px;
+}
+#buy-soon{
+background-color:#E02C6D;
+height: 24px;
+width: 200px;
+left: 150px;
+top: 511px;
+padding: 10px;
+justify-content: center;
+color: white;
+margin-left: 770px;
+
+}
+#footer{
+    margin-left: 500px;
+    
+    color:#FFFFFF
+    
+    
+}
+#last-section{
+    background-color:#0A0826;
+    height: 200px;
+}
+@media only screen and (max-width:688px) {
+.common-flex-1{
+    flex-direction: column;
+    width: 100%;
+}  
+
+.tools{
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+}
+}
+#collection{
+    margin-left: 570px;
+}
+#icon{
+    
+    padding: 15px;
+    column-gap: 10px;
+    display: flex;
+    font-size: 30px;
+    margin-left: 90px;
+}
+#copyright{
+    margin-left: 60px;
+}
+#copyright-1{
+    margin-left: 100px;
+}
+#flower{
+    border-radius: 10px;
+}
+
+
+
